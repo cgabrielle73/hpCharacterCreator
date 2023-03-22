@@ -11,7 +11,7 @@ public class User {
     private String name;
     private String gender;
 
-    private LocalDateTime birthDate = LocalDateTime.now();
+    private String birthDate;
     private HogwartsHouses house;
     private Broom broom;
     private Wand wand;
@@ -20,7 +20,7 @@ public class User {
 
     public User(){}
 
-    public User(String name, String gender, LocalDateTime birthDate, HogwartsHouses house, Broom broom, Wand wand, Pet pet) {
+    public User(String name, String gender, String birthDate, HogwartsHouses house, Broom broom, Wand wand, Pet pet) {
         this.name = name;
         this.gender = gender;
         this.birthDate = birthDate;
@@ -46,11 +46,11 @@ public class User {
         this.gender = gender;
     }
 
-    public LocalDateTime getBirthDate() {
+    public String getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(LocalDateTime birthDate) {
+    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
 
