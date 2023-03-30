@@ -7,3 +7,5 @@ X
 (src/main/java/org/src/entities/Wand.java,3/3/33cb8e423d6f5e2f0f51aa2abbc8c57292d2493e
 W
 'src/main/java/org/src/entities/Pet.java,c/2/c270f9af4d1e209b48df803496ce456b3517fd10
+W
+'src/main/java/org/src/enums/Traits.java,3/2/3209c4109b855e5419b89337a6faaa6d328f2a9e

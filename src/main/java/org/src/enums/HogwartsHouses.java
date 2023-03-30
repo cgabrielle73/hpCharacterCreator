@@ -6,7 +6,10 @@ public enum HogwartsHouses {
     RAVENCLAW(3),
     SLYTHERIN(4);
 
-    HogwartsHouses(int i) {
+    private int codigo;
+
+    HogwartsHouses(int code) {
+        this.codigo = code;
     }
 
 }
