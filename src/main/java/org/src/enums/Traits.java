@@ -1,24 +1,17 @@
 package org.src.enums;
 
 public enum Traits {
-    BRAVE,
-    AMBITIOUS,
-    CLEVER,
-    CUNNING,
-    LOYAL,
-    KIND,
-    RESOURCEFUL,
-    RECKLESS,
-    INTELLIGENT,
-    CHARISMATIC,
-    ARROGANT,
-    MISCHIEVOUS,
-    HUMOROUS,
-    HONORABLE,
-    INDEPENDENT,
-    HARDWORKING,
-    IMPULSIVE,
-    IMPATIENT,
-    PERFECTIONIST,
-    ADVENTUROUS;
+        BRAVE(1),
+        AMBITIOUS(2),
+        CLEVER(3),
+        CUNNING(4),
+        LOYAL(5),
+        KIND(6),
+        RESOURCEFUL(7),
+        RECKLESS(8),
+        INTELLIGENT(9),
+        CHARISMATIC(10);
+
+        Traits(int i) {
+        }
 }
